@@ -26,4 +26,9 @@ function makeColor(r, g, b) {
 }
 
 const firstColor = makeColor(35, 255, 150);
+firstColor.hex();
 firstColor.rgb();
+
+const black = makeColor(0, 0, 0);
+black.rgb();
+black.hex();
